@@ -9,6 +9,9 @@
     "preview": "vite preview"
     "start": "serve -s dist -l $PORT
   },
+  "engines": {
+  "node": ">=18.0.0"
+}
   "dependencies": {
     "@google/genai": "^1.38.0",
     "firebase": "^11.10.0",
